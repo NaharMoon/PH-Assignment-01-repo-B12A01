@@ -4,4 +4,219 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+} 
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
+/* ---------------universal styles------------------ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1440px;
+}
+
+/* --------------shared styles---STARTs-------------- */
+
+.btn-style{
+    border: 0px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/* ______________shared styles___ENDs_________________*/
+
+
+/* --------Navbar and Bannar Section---STARTs---------*/
+
+#bannar-background{
+    /* border: 2px solid red; */
+    max-width: 1440px;
+    height: 698px;
+    /* margin: auto; */
+    background-image: url("../Assets/Hero-bg.png");
+}
+
+#navbar-section{
+    border: 2px solid red;
+    margin: auto;
+    max-width: 1140px;
+    height: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-name{
+    max-width: 99px;
+    max-height: 51px;
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+
+}
+
+#sign-up-btn{
+    width: 132px;
+    height: 48px;
+}
+
+#bannar-content{
+    border: 2px solid red;
+    width: 905px;
+    height: 237px;
+    margin: auto;
+    justify-items: center; 
+    margin-top: 158px;
+}
+.bannar-heading{
+    border: 2px solid red;
+    width: 905px;
+    height: 152px;
+    text-align: center;
+    justify-content: center;
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+#stay-focused-btn{
+    width: 174px;
+    height: 48px;
+    margin-top: 37px;
+}
+
+/* ________Navbar and Bannar Section___ENDs___________*/
+
+
+/* -----------------3. Action Section---STARTs-------517,203-403,328--------- */
+
+#action-section{
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 328px;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-image{
+    /* border: 2px solid red; */
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+#action-text-section{
+    /* border: 2px solid red; */
+    width: 517px;
+    height: 203px;
+}
+.action-text-headding{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-text{
+    color: #252432;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 23px 0px;
+}
+#launch-live-btn{
+    width: 229px;
+    height: 48px;
+}
+
+/* _________________3. Action Section___ENDs___________________ */
+
+
+/* ------------4. Productive Users Section---STARTs------------ */
+
+#productive-users-section {
+    border: 2px solid rgba(78, 71, 255, 0.1);  /*!!!!!!!!!!!!!*/
+    width: 1140px;
+    height: 306px;
+    margin: auto;
+    margin-bottom: 137px;
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+
+}
+.productive-users-section-heading {
+    color: #252432;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#productive-users-section-div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.productive-users-section-large-text {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+.productive-users-section-small-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+/* ____________4. Productive Users Section___ENDs______________ */
+
+
+/* ------------5. Let’s Get In Touch Section---STARTs--------- */
+
+#let-get-in-touch-section {
+    border: 2px solid red;
+    width: 1140px;
+    height: 632px;
+    margin: 0px auto 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.let-get-in-touch-section-left {
+    border: 2px solid red;
+    width: 528px;
+    height: 232px;
+}
+.let-get-in-touch-section-title {
+    color: #000000;
+    font-size: 97px;
+    font-weight: bold;
+}
+.let-get-in-touch-section-right {
+    border: 2px solid red;
+    width: 497px;
+    height: 490px;
+}
+.let-get-in-touch-section-form label {
+    display: block;
+}
+input[type="email"], input[type="text"], textarea, input[type="submit"] {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 19px;
+    border-radius: 10px;
+}
+#get-in-touch-btn{
+    width: 497px;
+    height: 62px;
+}
+
+/* ____________5. Let’s Get In Touch Section___ENDs____________ */
