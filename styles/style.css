@@ -47,7 +47,7 @@ main {
 
 #bannar-background{
     /* border: 2px solid red; */
-    max-width: 1440px;
+    width: 1440px;
     height: 698px;
     /* margin: auto; */
     background-image: url("../Assets/Hero-bg.png");
@@ -56,15 +56,15 @@ main {
 #navbar-section{
     border: 2px solid red;
     margin: auto;
-    max-width: 1140px;
+    width: 1140px;
     height: 151px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #navbar-name{
-    max-width: 99px;
-    max-height: 51px;
+    width: 99px;
+    height: 51px;
     font-size: 34px;
     font-weight: bolder;
     color: #4E47FF;
