@@ -17,11 +17,15 @@
 *{
     margin: 0px;
     padding: 0px;
-    max-width: 1440px;
 }
 
 /* --------------shared styles---STARTs-------------- */
 
+body {
+    max-width: 1440px;
+    background-color: rgba(214, 221, 237, 0.3);
+    margin: auto;
+}
 .btn-style{
     border: 0px;
     border-radius: 10px;
@@ -184,7 +188,7 @@
     border: 2px solid red;
     width: 1140px;
     height: 632px;
-    margin: 0px auto 200px;
+    margin: 0px auto 137px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,3 +224,153 @@ input[type="email"], input[type="text"], textarea, input[type="submit"] {
 }
 
 /* ____________5. Let’s Get In Touch Section___ENDs____________ */
+
+
+/* ----------------6. Footer Section---STARTs------------------ */
+
+#footer-backgroung {
+    /* border: 2px solid red; */
+    width: 1440px;
+    height: 428px;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+#footer-section {
+    /* border: 2px solid red; */
+    width: 531px;
+    height: 221px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-title {
+    color: #4E47FF;
+    font-size: 100px;
+}
+.footer-text {
+    color: #8987A1;
+    font-size: 16px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+footer nav li {
+    list-style: none;
+}
+footer nav ul li a {
+    text-decoration: none;
+}
+
+/* ________________6. Footer Section___ENDs____________________ */
+
+
+/* ----------------7. Users Feedback Section---STARTs----------- */
+
+#user-feedback-section {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 342px;
+    margin: auto;
+}
+.user-feedback-section-title {
+    color: #252432;
+    font-size: 42px;
+    text-align: center;
+}
+
+
+.users-feedback-card {
+    /* border: 2px solid red; */
+    width: 318px;
+    height: 195px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 50px;
+}
+.star-icon-align {
+    display: flex;
+}
+.users-feedback-card-title {
+    color: #1E1E1E;
+    font-size: 24px;
+    margin-top: 24px;
+}
+.users-feedback-card-text {
+    color: #1E1E1E;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.reviewer-img {
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    border-radius: 50%;
+}
+.reviewer-name {
+    color: #757575;
+    font-size: 16px;
+}
+.review-date {
+    color: #B3B3B3;
+    font-size: 16px;
+}
+.review-card-in-card {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+#feedback-card-holder {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+/* ________________7. Users Feedback Section___ENDs_____________ */
+
+
+
+
+/* ------------Extrs Section-Ready to Focus---STARTs------------ */
+
+#extra-section {
+    /* border: 2px solid red; */
+    width: 840px;
+    height: 553px;
+    margin: 115px auto;
+    padding: 71px 150px;
+    border-radius: 14px;
+    text-align: center;
+    background-color: white;
+}
+.extra-section-title {
+    color: #000000;
+    font-size: 50px;
+}
+.extra-section-subtitle {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-top: 20px;
+}
+#get-started-btn{
+    width: 195px;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.extra-section-img {
+    /* border: 2px solid red; */
+    width: 840px;
+    height: 365px;
+    margin: auto;
+    border-radius: 48px;
+}
+
+/* ____________Extrs Section-Ready to Focus___ENDs______________ */
