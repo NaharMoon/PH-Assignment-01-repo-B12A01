@@ -26,6 +26,10 @@ body {
     background-color: rgba(214, 221, 237, 0.3);
     margin: auto;
 }
+main {
+    max-width: 1140px;
+    margin: auto;
+}
 .btn-style{
     border: 0px;
     border-radius: 10px;
