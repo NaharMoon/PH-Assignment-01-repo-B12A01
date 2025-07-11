@@ -27,7 +27,7 @@ body {
     margin: auto;
 }
 main {
-    max-width: 1140px;
+    width: 1140px;
     margin: auto;
 }
 .btn-style{
@@ -43,9 +43,9 @@ main {
 /* ______________shared styles___ENDs_________________*/
 
 
-/* --------Navbar and Bannar Section---STARTs---------*/
+/* --------Navbar and Banner Section---STARTs---------*/
 
-#bannar-background{
+#banner-background{
     /* border: 2px solid red; */
     width: 1440px;
     height: 698px;
@@ -76,7 +76,7 @@ main {
     height: 48px;
 }
 
-#bannar-content{
+#banner-content{
     border: 2px solid red;
     width: 905px;
     height: 237px;
@@ -84,7 +84,7 @@ main {
     justify-items: center; 
     margin-top: 158px;
 }
-.bannar-heading{
+.banner-heading{
     border: 2px solid red;
     width: 905px;
     height: 152px;
@@ -100,7 +100,7 @@ main {
     margin-top: 37px;
 }
 
-/* ________Navbar and Bannar Section___ENDs___________*/
+/* ________Navbar and Banner Section___ENDs___________*/
 
 
 /* -----------------3. Action Section---STARTs-------517,203-403,328--------- */
